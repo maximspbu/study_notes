@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # 26. Исследование интеграла $\displaystyle\int_1^{+\infty}g(x)\sin(\lambda x)dx$
 
 ### Пример. Исследовать на сходимость $\displaystyle\int_1^{+\infty}g(x)\sin(x)dx$,

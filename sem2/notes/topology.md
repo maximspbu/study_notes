@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Топология (Солынин)
 
 [Конспекты](sem2/notes/topology/notes.md)

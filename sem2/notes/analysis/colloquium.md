@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Коллоквиум
 
 [Вопросы.pdf](sem2/семестр%202b93141466104c17bda2d8c93f04e9ad/Матан%20(Лебедева)%20f6bd7ff3ea344a64b544d1cd5f8ad19f/Коллоквиум%20c4d9e3ce7c444b8db5b64d2db04e47e8/%D0%92%D0%BE%D0%BF%D1%80%D0%BE%D1%81%D1%8B.pdf)

@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Матан (Лебедева)
 
 <aside>

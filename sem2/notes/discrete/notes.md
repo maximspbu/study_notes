@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Конспекты
 
 [Оптимальный префиксный код.](optimal_prefix_code.md)

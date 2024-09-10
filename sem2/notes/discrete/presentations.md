@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Презенташки
 
 [01-DM-huffman.pdf](01-DM-huffman.pdf)

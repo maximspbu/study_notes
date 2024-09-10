@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # Дискретка (Мокаев)
 
 [Конспекты](sem2/notes/discrete/notes.md)
