@@ -1,0 +1,16 @@
+---  
+layout: mathjax  
+---  
+  
+# 64. Непрерывность отображения $A\mapsto A^{-1}$.  
+  
+### Следствие. Непрерывное отображение $A\to A^{-1}$.  
+$A\in\Omega(l_2^d),~\|B_k-A\|\underset{k\to\infty}{\to}0,~B_k\in L(l_2^d)$  
+Тогда $\exists K_0:\forall k\ge K_0 ~~ B_k\in\Omega(l_2^d)$ и $\|B_k^{-1}-A^{-1}\|\underset{k\to\infty}{\to}0$.  
+  
+### Доказательство:  
+$\displaystyle\|B_k-A\|\underset{k\to\infty}{\to}0\Rightarrow\exists K_0 ~~ \forall k\ge K_0 ~~ \|B_k-A\|<\\  
+<  
+\frac{1}{\|A^{-1}\|}\xRightarrow{\text{Т об обр оп близк к обр} }B_k\in\Omega(l_2^d)$  
+  
+$\|B_k^{-1}-A^{-1}\|\le\underbrace{\frac{\|A\|^{-1} }{\|A^{-1}\|^{-1}-\underbrace{\|B_k-A\|}_{\to0} }}_{\to c}\underbrace{\|B_k-A\|}_{\to0}\underset{n\to\infty}{\to}0$  

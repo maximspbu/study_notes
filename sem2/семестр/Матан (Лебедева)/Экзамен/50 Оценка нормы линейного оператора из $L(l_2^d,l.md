@@ -1,0 +1,62 @@
+---
+layout: default
+katex: true
+---
+
+# 50. Оценка нормы линейного оператора из $L(l_2^d,l_2^m)$. Равномерная непрерывность оператора из $L(l_2^d,l_2^m)$.
+
+### Определение. Ограниченный линейный оператор.
+Если $\|A\|<\infty,$ то линейный оператор $A~-~$ограниченный.
+
+### Обозначим $\displaystyle l^d_p:=(\R^d,\|.\|_p)=\{(x_1\dots x_d)~\big|~\|x\|_p=(\sum_{k=1}^d|x_k|^p)^\frac{1}{p}\}$
+
+### Лемма. Оценка нормы оператора $A\in(l_2^d,l_2^m)$.
+Пусть $(a_{ij})_{i=1\dots m}^{j=1\dots d}~-~$матрица $A$, тогда $\displaystyle\|A\|\le\Big(\sum_{i=1}^m(\sum_{j=1}^d(a_{ij})^2)\Big)^\frac{1}{2}=\alpha$.
+Доказательство:
+$|Ax|\le\lambda|x|\rArr\|A\|\le\lambda~-~$по свойству линейного оператора.
+$\displaystyle|Ax|=\Big(\sum_{i=1}^m(\sum_{j=1}^{d}a_{ij}x_j)^2\Big)^\frac{1}{2}\underset{\text{н-во КБШ}}{\le}\Big(\sum_{i=1}^m\Big(\sum_{j=1}^{d}a_{ij}^2\cdot\sum_{j=1}^d x_j^2\Big)\Big)^\frac{1}{2}=\\=\Big(\sum^m_{i=1}\sum_{j=1}^da_{ij}^2\Big)^\frac{1}{2}\cdot\Big(\sum_{j=1}^d x_j^2\Big)^\frac{1}{2}=\alpha\cdot\|x\|\rArr\|A\|\le\alpha~~\scriptsize\blacksquare$
+
+### Замечание.
+Оценка неточная, $\exist A:\|A\|<\alpha.$ 
+Например, $A(x_1\dots x_d)=(x_2\dots x_d,0)$.
+$\begin{pmatrix}
+0&1&0&\dots&0\\
+0&0&1&\dots&0\\
+\dots&\dots&\dots&\dots&\dots\\
+0&0&0&\dots&0
+\end{pmatrix}\cdot
+\begin{pmatrix}
+x_1\\
+x_2\\
+\dots\\
+x_d
+\end{pmatrix}=
+\begin{pmatrix}
+x_2\\
+x_3\\
+\dots\\
+x_d\\
+0
+\end{pmatrix}$;
+$\alpha=\sqrt{d-1},~\|A\|=1$.
+
+### Следствие. 
+В двух частных случаях $A\in L(l_2^1,l_2^m)~~A\in L(l_2^d,l_2^1)~~\|A\|=\alpha$.
+Доказательство:
+Самостоятельно
+
+### Замечание.
+Ограниченные линейный оператор и отображение — разные понятия.
+Линейный оператор $A\in L(l_2^d,l_2^m)~-~$ограниченный.
+Линейное отображение $A:\R^d\to\R^m~~y=Ax~-~$не ограниченное отображение.
+
+### Пример.
+$y=kx~~|x|<5\underset{k=6}{\rArr}|y|\le6\cdot5=30$.
+Многомерный случай: $y\in\R^m,~~A\in L(l_2^d,l_2^m),~x\in\R^d~~y=Ax$
+$\|y\|=\|Ax\|\le\|A\|\cdot|x|$
+
+### Следствие.
+Оператор $A\in L(l_2^d,l_2^m)~-~$равномерно непрерывен.
+Доказательство:
+$x^1,x^2\in\R^d~~|Ax^1-Ax^2|=|A(x^1-x^2)|\le|A|\cdot|x^1-x^2|$
+$\displaystyle|x^1-x^2|<\delta=\delta(\varepsilon)=\frac{\varepsilon}{\|A\|}\rArr|Ax^1-Ax^2|<\varepsilon$.
