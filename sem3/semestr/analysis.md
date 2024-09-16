@@ -2,4 +2,4 @@
 layout: mathjax  
 ---  
 
-[Конспекты](notes)  
+[Конспекты](analysis/notes)  

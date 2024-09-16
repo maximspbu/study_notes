@@ -4,8 +4,8 @@ layout: mathjax
   
 # семестр  
   
-[Матан (Лебедева)](analysis)  
+[Матан (Лебедева)](semestr/analysis)  
   
-[Теорвер (Невзоров)](probability_and_statistics)  
+[Теорвер (Невзоров)](semestr/probability_and_statistics)  
   
-[Топология (Солынин)](topology)  
+[Топология (Солынин)](semestr/topology)  
