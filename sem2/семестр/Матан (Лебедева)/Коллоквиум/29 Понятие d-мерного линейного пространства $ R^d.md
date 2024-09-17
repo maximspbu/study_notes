@@ -30,7 +30,7 @@ $3)$ $||x+y||\le||x|| +||y||$
   
 ### Примеры:  
 $\boxed{1}$ $(\mathbb{R}^d,||\cdot||_p),$ где $p\ge1$.  
-$x\in\mathbb{R}^d\Rightarrow||x||_p:=\Big(\displaystyle\sum_{k=1}^d|x_k|^p\Big)^\frac{1}{p}~-~$[нер-во Минковского](/www.notion.so/75-0a13e664fb124010b668e23d037c7d14?pvs=21).  
+$x\in\mathbb{R}^d\Rightarrow||x||_p:=\Big(\displaystyle\sum_{k=1}^d|x_k|^p\Big)^\frac{1}{p}~-~$[нер-во Минковского](//www.notion.so/75-0a13e664fb124010b668e23d037c7d14?pvs=21).  
 $\boxed{2}$ $p=\infty$  
 $||x||_\infty=\displaystyle\max_{j\in1:d}|x_j|$  
   

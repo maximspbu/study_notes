@@ -2,4 +2,4 @@
 layout: mathjax  
 ---  
 
-[Конспекты](analysis/notes)  
+[Конспекты](/sem3/semestr/analysis/notes)  

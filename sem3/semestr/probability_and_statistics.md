@@ -2,4 +2,4 @@
 layout: mathjax  
 ---  
 
-[Конспекты](probability_and_statistics/notes)  
+[Конспекты](/sem3/semestr/probability_and_statistics/notes)  
