@@ -19,6 +19,7 @@ kramdown:
 
 mathjax: true
 
+baseurl: /study_notes
   
   # Minima date format.
   # The default value is "%b %d, %Y" (e.g. Nov 14, 2023) 
