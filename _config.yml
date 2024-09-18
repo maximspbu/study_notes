@@ -12,13 +12,6 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
 
-kramdown:
-  input: GFM  # GitHub-Flavored Markdown
-  math_engine: mathjax
-  syntax_highlighter: rouge
-
-mathjax: true
-
 baseurl: /study_notes
   
   # Minima date format.

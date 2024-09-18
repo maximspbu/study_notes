@@ -5,20 +5,25 @@
     {%- seo -%}
     <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
   
-    {% if site.mathjax %}
-    <!-- MathJax Configuration -->
-    <script type="text/x-mathjax-config">
-      MathJax.Hub.Config({
-        tex2jax: {
-          inlineMath: [['$', '$'], ['\\(', '\\)']],
-          displayMath: [['$$', '$$'], ['\\[', '\\]']],
-          processEscapes: true
+    <script>
+      MathJax = {
+        tex: {
+          inlineMath: [
+            ['$', '$']
+          ],
+          displayMath: [
+            ['$$', '$$'],
+          ]
         },
-        "HTML-CSS": { linebreaks: { automatic: true } }
-      });
+        svg: {
+          fontCache: 'global'
+        },
+        options: { ignoreHtmlClass: 'tex2jax_ignore|editor-rich-text' }
+      };
     </script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    {% endif %}
+    <script type="text/javascript" id="MathJax-script" async
+      src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js">
+    </script>
   
     {%- feed_meta -%}
     {%- if jekyll.environment == 'production' and site.google_analytics -%}
